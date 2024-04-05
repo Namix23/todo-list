@@ -1,3 +1,4 @@
+// 
 const toDoList = document.getElementById("todo-list");
 const addBtn = document.querySelector("#add-item");
 
