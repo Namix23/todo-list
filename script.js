@@ -12,7 +12,6 @@ function addItemToList() {
   newTask.classList.add("todo-list-item");
 
   // createCheckmarkButton(newTask);
-  createCheckmarkButton(newTask);
 
   //add new li element as a child of the toDoList element
   toDoList.append(newTask);
