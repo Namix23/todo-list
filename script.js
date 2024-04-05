@@ -1,6 +1,6 @@
 // 
 const toDoList = document.getElementById("todo-list");
-const addBtn = document.querySelector("#add-item");
+const addButton = document.querySelector("#add-item");
 
 function addItemToList() {
   //store text from the HTML text input field
@@ -11,7 +11,7 @@ function addItemToList() {
   //add new li element to a class
   newTask.classList.add("todo-list-item");
   // createCheckmarkButton(newTask);
-  // add new li
+  createCheckmarkButton(newTask);
   toDoList.append(newTask);
   textInput.value = "";
 }
