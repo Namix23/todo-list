@@ -1,4 +1,4 @@
-// 
+//
 const toDoList = document.getElementById("todo-list");
 const addButton = document.querySelector("#add-item");
 
@@ -10,13 +10,16 @@ function addItemToList() {
   newTask.innerHTML = taskText;
   //add new li element to a class
   newTask.classList.add("todo-list-item");
+
   // createCheckmarkButton(newTask);
   createCheckmarkButton(newTask);
+
+  //add new li element as a child of the toDoList element
   toDoList.append(newTask);
   textInput.value = "";
 }
-
-addBtn.addEventListener('click', function (e) {
-  e.preventDefault();
+// call when addButton is clicked
+addButton.addEventListener("click", function (event) {
+  event.preventDefault();
   addItemToList();
 });
