@@ -1,9 +1,32 @@
+body {
+background-image: url("images/todo-note.jpg"); ;
+  background-size: cover;
+}
 
+h1 {
+  text-align: center;
+  font-family: "Delicious Handrawn", cursive;Verdana, sans-serif;
+  font-size: 4rem;
+}
 
-.todo-list-item {
-  background: orange;
+form {
+  text-align: center;
+  }
+
+label {
+  font-family: "Rochester", cursive;
+  font-size: 2rem;
+}
+
+input{
+  font-family: "Delicious Handrawn", cursive; Verdana, sans-serif;
+}
+
+li {
+  list-style: none;
+  text-align: center;
 }
 
 .checkmark-button {
-  float: right;
+justify-content: center;  
 }
