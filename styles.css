@@ -1,3 +1,9 @@
+
+
 .todo-list-item {
   background: orange;
+}
+
+.checkmark-button {
+  float: right;
 }
